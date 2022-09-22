@@ -40,6 +40,7 @@ settings =
 		["plugin.androidPreview"] =
 	        {
 	            publisherId = "tech.scotth",
+		    marketplaceId = "replace"
 	        },
 	},
 }
