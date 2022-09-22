@@ -1,7 +1,7 @@
 local androidPreview = require "plugin.androidPreview"
 local json = require("json")
 local bg = display.newRect( display.contentCenterX, display.contentCenterY, display.actualContentWidth, display.actualContentHeight )
-local logo = display.newText( "External Storage Plugin", 0, 0, native.systemFontBold, 20 )
+local logo = display.newText( "Android Preview Plugin", 0, 0, native.systemFontBold, 20 )
 logo.x, logo.y = display.contentCenterX, 50
 bg:setFillColor( 0,0,.4 )
 local widget = require("widget")
